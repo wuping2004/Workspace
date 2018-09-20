@@ -33,7 +33,6 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Stateful\Stateful.csproj" />
-    <ProjectReference Include="..\Stateless2\Stateless2.csproj" />
     <ProjectReference Include="..\Stateless\Stateless.csproj" />
     <ProjectReference Include="..\Web\Web.csproj" />
   </ItemGroup>
