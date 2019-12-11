@@ -1,0 +1,69 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2018
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{A07B5EB6-E848-4116-A8D0-A826331D98C6}") = "PingSF", "PingSF\PingSF.sfproj", "{9FBBAD23-8491-43F9-8C3D-A2D3732597A6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stateful", "Stateful\Stateful.csproj", "{219E3F37-820A-4A55-A315-4FD76709E2AB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Web", "Web\Web.csproj", "{9D186FCC-834A-4760-8D61-FB4CA80EC3F2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PingActor1", "PingActor1\PingActor1.csproj", "{22AC8FC9-B473-41DB-AC02-BB57567B1493}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PingActor1.Interfaces", "PingActor1.Interfaces\PingActor1.Interfaces.csproj", "{15392DAC-BCBE-44F4-A58D-AF95DCC1C681}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9FBBAD23-8491-43F9-8C3D-A2D3732597A6}.Debug|Any CPU.ActiveCfg = Debug|x64
+		{9FBBAD23-8491-43F9-8C3D-A2D3732597A6}.Debug|Any CPU.Build.0 = Debug|x64
+		{9FBBAD23-8491-43F9-8C3D-A2D3732597A6}.Debug|x64.ActiveCfg = Debug|x64
+		{9FBBAD23-8491-43F9-8C3D-A2D3732597A6}.Debug|x64.Build.0 = Debug|x64
+		{9FBBAD23-8491-43F9-8C3D-A2D3732597A6}.Debug|x64.Deploy.0 = Debug|x64
+		{9FBBAD23-8491-43F9-8C3D-A2D3732597A6}.Release|Any CPU.ActiveCfg = Release|x64
+		{9FBBAD23-8491-43F9-8C3D-A2D3732597A6}.Release|x64.ActiveCfg = Release|x64
+		{9FBBAD23-8491-43F9-8C3D-A2D3732597A6}.Release|x64.Build.0 = Release|x64
+		{9FBBAD23-8491-43F9-8C3D-A2D3732597A6}.Release|x64.Deploy.0 = Release|x64
+		{219E3F37-820A-4A55-A315-4FD76709E2AB}.Debug|Any CPU.ActiveCfg = Debug|x64
+		{219E3F37-820A-4A55-A315-4FD76709E2AB}.Debug|Any CPU.Build.0 = Debug|x64
+		{219E3F37-820A-4A55-A315-4FD76709E2AB}.Debug|x64.ActiveCfg = Debug|x64
+		{219E3F37-820A-4A55-A315-4FD76709E2AB}.Debug|x64.Build.0 = Debug|x64
+		{219E3F37-820A-4A55-A315-4FD76709E2AB}.Release|Any CPU.ActiveCfg = Release|x64
+		{219E3F37-820A-4A55-A315-4FD76709E2AB}.Release|x64.ActiveCfg = Release|x64
+		{219E3F37-820A-4A55-A315-4FD76709E2AB}.Release|x64.Build.0 = Release|x64
+		{9D186FCC-834A-4760-8D61-FB4CA80EC3F2}.Debug|Any CPU.ActiveCfg = Debug|x64
+		{9D186FCC-834A-4760-8D61-FB4CA80EC3F2}.Debug|Any CPU.Build.0 = Debug|x64
+		{9D186FCC-834A-4760-8D61-FB4CA80EC3F2}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{9D186FCC-834A-4760-8D61-FB4CA80EC3F2}.Debug|x64.Build.0 = Debug|Any CPU
+		{9D186FCC-834A-4760-8D61-FB4CA80EC3F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D186FCC-834A-4760-8D61-FB4CA80EC3F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D186FCC-834A-4760-8D61-FB4CA80EC3F2}.Release|x64.ActiveCfg = Release|Any CPU
+		{9D186FCC-834A-4760-8D61-FB4CA80EC3F2}.Release|x64.Build.0 = Release|Any CPU
+		{22AC8FC9-B473-41DB-AC02-BB57567B1493}.Debug|Any CPU.ActiveCfg = Debug|x64
+		{22AC8FC9-B473-41DB-AC02-BB57567B1493}.Debug|Any CPU.Build.0 = Debug|x64
+		{22AC8FC9-B473-41DB-AC02-BB57567B1493}.Debug|x64.ActiveCfg = Debug|x64
+		{22AC8FC9-B473-41DB-AC02-BB57567B1493}.Debug|x64.Build.0 = Debug|x64
+		{22AC8FC9-B473-41DB-AC02-BB57567B1493}.Release|Any CPU.ActiveCfg = Release|x64
+		{22AC8FC9-B473-41DB-AC02-BB57567B1493}.Release|x64.ActiveCfg = Release|x64
+		{22AC8FC9-B473-41DB-AC02-BB57567B1493}.Release|x64.Build.0 = Release|x64
+		{15392DAC-BCBE-44F4-A58D-AF95DCC1C681}.Debug|Any CPU.ActiveCfg = Debug|x64
+		{15392DAC-BCBE-44F4-A58D-AF95DCC1C681}.Debug|Any CPU.Build.0 = Debug|x64
+		{15392DAC-BCBE-44F4-A58D-AF95DCC1C681}.Debug|x64.ActiveCfg = Debug|x64
+		{15392DAC-BCBE-44F4-A58D-AF95DCC1C681}.Debug|x64.Build.0 = Debug|x64
+		{15392DAC-BCBE-44F4-A58D-AF95DCC1C681}.Release|Any CPU.ActiveCfg = Release|x64
+		{15392DAC-BCBE-44F4-A58D-AF95DCC1C681}.Release|x64.ActiveCfg = Release|x64
+		{15392DAC-BCBE-44F4-A58D-AF95DCC1C681}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4BBC3A51-7632-42F4-A86F-6A7317D1CF9E}
+	EndGlobalSection
+EndGlobal

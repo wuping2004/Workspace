@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ServiceManifest xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="PingActor1Pkg" Version="2.0.0" xmlns="http://schemas.microsoft.com/2011/01/fabric">
+  <ServiceTypes>
+    <StatefulServiceType ServiceTypeName="PingActor1ActorServiceType" HasPersistedState="true">
+      <Extensions>
+        <Extension Name="__GeneratedServiceType__" GeneratedId="ecd6fdd8-c5d8-48e3-aa21-bf8731c1d05b|Persisted">
+          <GeneratedNames xmlns="http://schemas.microsoft.com/2015/03/fabact-no-schema">
+            <DefaultService Name="PingActor1ActorService" />
+            <ReplicatorEndpoint Name="PingActor1ActorServiceReplicatorEndpoint" />
+            <ReplicatorConfigSection Name="PingActor1ActorServiceReplicatorConfig" />
+            <ReplicatorSecurityConfigSection Name="PingActor1ActorServiceReplicatorSecurityConfig" />
+            <StoreConfigSection Name="PingActor1ActorServiceLocalStoreConfig" />
+            <ServiceEndpointV2 Name="PingActor1ActorServiceEndpointV2" />
+          </GeneratedNames>
+        </Extension>
+      </Extensions>
+    </StatefulServiceType>
+  </ServiceTypes>
+  <CodePackage Name="Code" Version="1.0.2">
+    <EntryPoint>
+      <ExeHost>
+        <Program>PingActor1.exe</Program>
+      </ExeHost>
+    </EntryPoint>
+  </CodePackage>
+  <ConfigPackage Name="Config" Version="1.0.2" />
+  <Resources>
+    <Endpoints>
+      <Endpoint Name="PingActor1ActorServiceEndpointV2" />
+      <Endpoint Name="PingActor1ActorServiceReplicatorEndpoint" />
+    </Endpoints>
+  </Resources>
+  <!-- The content will be generated during build -->
+</ServiceManifest>
